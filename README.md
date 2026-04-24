@@ -6,3 +6,4 @@ TaskFlow is a basic task management application.
 - src: source code
 - docs: documentation
 - tests: testing files
+- Updated for CI test
