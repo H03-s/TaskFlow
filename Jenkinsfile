@@ -4,20 +4,20 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                echo 'Cloning repository...'
+                git 'https://github.com/H03-s/TaskFlow'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building project...'
+                echo "Building project..."
             }
         }
 
         stage('Test') {
-    steps {
-        echo 'Running tests...'
-    }
-}
+            steps {
+                echo "Running tests..."
+            }
         }
     }
+}
